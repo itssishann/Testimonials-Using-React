@@ -12,15 +12,13 @@ const Card = (props) => {
 </div>
 
             <div className='mt-7 text-center'>
-                <p className='font-bold text-2xl capitalize'>{review.name}</p>
-            </div>
-            <div className='mt-7 text-center'>
-                <p className='text-violet-300 uppercase text-sm '>{review.job}</p>
+                <p className='font-bold text-2xl capitalize tracking-wide'>{review.name}</p>
+                <p className='text-violet-600 uppercase text-md '>{review.job}</p>
             </div>
             <div className='mx-auto text-violet-400 mt-5'>
                 < FaQuoteLeft />
             </div>
-            <div className='mt-4 text-center text-slate-500'>
+            <div className='mt-4 text-center capitalize text-slate-700'>
                 {review.text}
             </div>
             <div className='mx-auto text-violet-400 mt-5'>
